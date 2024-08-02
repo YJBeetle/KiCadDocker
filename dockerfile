@@ -1,4 +1,4 @@
-FROM kicad/kicad:8.0.3
+FROM kicad/kicad:8.0.4
 
 RUN sudo apt-get update && sudo apt-get install -y --no-install-recommends curl &&\
     sudo apt-get clean &&\
