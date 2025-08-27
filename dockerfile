@@ -1,4 +1,4 @@
-FROM kicad/kicad:8.0.9
+FROM kicad/kicad:9.0.0-amd64
 
 RUN sudo apt-get update && sudo apt-get install -y --no-install-recommends curl &&\
     sudo apt-get clean &&\
