@@ -1,4 +1,4 @@
-FROM kicad/kicad:9.0.0-amd64
+FROM kicad/kicad:9.0.1-full
 
 RUN sudo apt-get update && sudo apt-get install -y --no-install-recommends pip &&\
     sudo apt-get clean &&\
